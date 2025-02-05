@@ -1,0 +1,12 @@
+export default `<!DOCTYPE html><html lang="en" data-beasties-container><head>
+  <meta charset="utf-8">
+  <title>ProfileWebapp</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" href="styles-5INURTSO.css"></head>
+<body>
+  <app-root ng-version="19.1.2" ng-server-context="ssg"><nav class="navbar navbar-expand-lg navbar-light bg-light"><a href="#" class="navbar-brand">My Profile</a><div class="collapse navbar-collapse"><ul class="navbar-nav"><li class="nav-item"><a routerlink="/home" class="nav-link" href="/home">Home</a></li><li class="nav-item"><a routerlink="/about" class="nav-link" href="/about">About Me</a></li><li class="nav-item"><a routerlink="/expertise" class="nav-link" href="/expertise">Expertise</a></li><li class="nav-item"><a routerlink="/experience" class="nav-link" href="/experience">Experience</a></li><li class="nav-item"><a routerlink="/hobbies" class="nav-link" href="/hobbies">Hobbies</a></li><li class="nav-item"><a routerlink="/achievements" class="nav-link" href="/achievements">Achievements</a></li><li class="nav-item"><a routerlink="/goals" class="nav-link" href="/goals">Goals</a></li><li class="nav-item"><a routerlink="/training" class="nav-link" href="/training">Training</a></li><li class="nav-item"><a routerlink="/contact" class="nav-link" href="/contact">Contact Me</a></li></ul></div></nav><div class="container mt-4"><router-outlet></router-outlet><app-aboutme><p>You are a software developer with expertise in C#, .NET Core, SQL, and React.js. You have 4 years of experience and are currently preparing for interviews with companies like EY, UST Global, Sonata Software, and Tarento Technologies. You are skilled in backend and frontend development, with a focus on creating efficient and user-friendly applications. You are also involved in deployment activities, gathering client requirements, and preparing detailed user requirement documents.</p></app-aboutme><!----></div></app-root>
+<script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-G4PQV3A3.js" type="module"></script>
+
+</body></html>`;

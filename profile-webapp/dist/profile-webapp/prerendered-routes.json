@@ -1,0 +1,14 @@
+{
+  "routes": {
+    "/": {},
+    "/about": {},
+    "/achievements": {},
+    "/contact": {},
+    "/experience": {},
+    "/expertise": {},
+    "/goals": {},
+    "/hobbies": {},
+    "/home": {},
+    "/training": {}
+  }
+}

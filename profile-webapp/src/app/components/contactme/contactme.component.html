@@ -1,0 +1,14 @@
+<h1> Add Contact Details </h1>
+
+<form #AddForm="ngForm" (ngSubmit)="AddContact(AddForm)">
+    <p> Contact Name </p>
+    <input type="text" name="name" required ngModel/>
+    <p> Contact Email </p>
+    <input type="text" name="email" required ngModel/>
+    <p> Contact PhoneNo. </p>
+    <input type="text" name="phoneNo" required ngModel/>
+    <p> Contact Message </p>
+    <input type="text" name="message" required ngModel/>
+    <p> <button type="submit">Submit</button> </p>
+</form>
+  
